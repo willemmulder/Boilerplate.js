@@ -4,7 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
 
 		<!-- Serverside LESS -> CSS or just raw CSS -->
-		<link rel="stylesheet" type="text/css" href="static/css/style.css">
+		<!-- <link rel="stylesheet" type="text/css" href="static/css/style.css">-->
 		<!-- / Serverside LESS -> CSS or just raw CSS -->
 
 		<!-- Client side LESS -->
@@ -18,8 +18,70 @@
 		</script>
 	</head>
 	<body>
-		<div class='container'>
-
+		<div class='container-fluid'>
+			<div class="row-fluid">
+				<div class="span4">
+					<p>
+						Left column
+					</p>
+				</div>
+				<div class="span8">
+					<h1>Right column</h1>
+					<p class='lead'>
+						First paragraph
+					</p>
+					<p>
+						Second <abbr title="paragraph">p</abbr>
+					</p>
+					<blockquote>
+						<p>#gamification is no rocket science. #Games create environments that #motivate people. Thats why we play them. Now we do the same for life...</p>
+						<small>Willem Mulder <cite title="twitter">https://twitter.com/WillemMulder</cite></small>
+					</blockquote>
+					<dl class="dl-horizontal">
+						<dt>Subject 1</dt>
+						<dd>Some text on subject 1</dd>
+						<dt>Subject 2</dt>
+						<dd>Some text on subject 2</dd>
+					</dl>
+					<pre>
+// Some code here. Nothing fancy really
+var a = "test";</pre>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Willem</td>
+								<td>Mulder</td>
+								<td>@willemmulder</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="input-append span12">
+						<input class="span6" id="appendedInputButton" type="text">
+						<button class="btn" type="button">Go!</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<script>
 			// Analytics
